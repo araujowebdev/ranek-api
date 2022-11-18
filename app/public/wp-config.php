@@ -53,6 +53,8 @@ define( 'DB_COLLATE', '' );
 
 /**#@-*/
 
+define('JWT_AUTH_SECRET_KEY', '9<i7}W*T>@a %}[Q|2CuwL,tg#?]k ;-iF0|;f2#|$~~nc{i09x5J5v;jz$W:r]<');
+define('JWT_AUTH_CORS_ENABLE', true);
 /**
  * WordPress database table prefix.
  *

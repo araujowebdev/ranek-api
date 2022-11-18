@@ -5,5 +5,10 @@
   require_once($template_diretorio . "/custom-post-type/transacao.php");
   
   require_once($template_diretorio . "/endpoints/usuario_post.php");
+  require_once($template_diretorio . "/endpoints/usuario_get.php");
 
+  function expire_token() {
+    return time() + 86400;
+  }
+  add_action("jwt_auth_expire", "expire_token");
 ?>
