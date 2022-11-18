@@ -1,5 +1,5 @@
 <?php
-  function api_usuario_post($request) {    
+  function api_usuario_post($request) {
     $email = sanitize_email($request["email"]);
     $senha = $request["senha"];
     $nome = sanitize_text_field($request["nome"]);
@@ -34,10 +34,6 @@
       $response = new WP_Error("email", "E-mail já cadastrado.", array("status" => 403));
     }
 
-    // $response = array(
-    //   "email" => $email,
-    //   "nome" => $nome,
-    // );
     return rest_ensure_response($response);
   };
 
