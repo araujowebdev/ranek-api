@@ -36,3 +36,33 @@
 [18-Nov-2022 13:58:41 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
 [18-Nov-2022 14:01:31 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
 [18-Nov-2022 14:01:31 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:12:01 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:12:01 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:13:19 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:13:19 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:13:30 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:13:30 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:13:38 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:13:38 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:13:41 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:13:41 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:13:45 UTC] PHP Warning:  Undefined array key "HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 222
+[18-Nov-2022 16:13:45 UTC] PHP Warning:  Undefined array key "REDIRECT_HTTP_AUTHORIZATION" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php on line 225
+[18-Nov-2022 16:35:00 UTC] PHP Warning:  require_once(/home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/endpoints/produto_post.php): Failed to open stream: No such file or directory in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php on line 11
+[18-Nov-2022 16:35:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/endpoints/produto_post.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-config.php(93): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-admin/admin-ajax.php(22): require_once('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php on line 11
+[18-Nov-2022 16:37:00 UTC] PHP Warning:  require_once(/home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/endpoints/produto_post.php): Failed to open stream: No such file or directory in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php on line 11
+[18-Nov-2022 16:37:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/endpoints/produto_post.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-config.php(93): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-admin/admin-ajax.php(22): require_once('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/ranekapi/app/public/wp-content/themes/api/functions.php on line 11
