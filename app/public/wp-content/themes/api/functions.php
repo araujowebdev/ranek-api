@@ -13,6 +13,9 @@ require_once($template_diretorio . "/endpoints/produto_post.php");
 require_once($template_diretorio . "/endpoints/produto_get.php");
 require_once($template_diretorio . "/endpoints/produto_delete.php");
 
+require_once($template_diretorio . "/endpoints/transacao_post.php");
+
+
 function get_produto_id_by_slug($slug) {
   $query = new WP_Query(array(
     'name' => $slug,
@@ -24,6 +27,9 @@ function get_produto_id_by_slug($slug) {
   return array_shift($posts);
 }
 
+add_action('rest_pre_serve_request', function() {
+  header('Access-Control-Expose-Headers: X-Total-Count');
+});
 
 function expire_token() {
   return time() + (60 * 60 * 24);
