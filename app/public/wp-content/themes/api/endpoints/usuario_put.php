@@ -46,7 +46,6 @@
     register_rest_route("api", "/usuario", array(
       array(
         "methods" => WP_REST_Server::EDITABLE,
-        // "methods" => "GET",
         "callback" => "api_usuario_put"
       ),
     ));

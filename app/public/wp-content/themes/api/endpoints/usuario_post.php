@@ -41,7 +41,6 @@
     register_rest_route("api", "/usuario", array(
       array(
         "methods" => WP_REST_Server::CREATABLE,
-        // "methods" => "GET",
         "callback" => "api_usuario_post"
       ),
     ));
