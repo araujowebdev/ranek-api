@@ -1,6 +1,6 @@
 # Ranek
 
-Este é um projeto de API REST feito com WordPres. Esta API é utilizada no projeto Ranek do curso de Vue.js 2 da Origamid e pode ser acessada em [**https://ranek.origamid.dev/**](https://ranek.origamid.dev/).
+Este é um projeto de API REST feito com WordPres e JWT para autenticação. Esta API é utilizada no projeto Ranek do curso de Vue.js 2 da Origamid e pode ser acessada em [**https://ranek.origamid.dev/**](https://ranek.origamid.dev/).
 
 | Sobre       |                 |
 | ----------- | --------------- |
